@@ -1,11 +1,11 @@
 remote:
   endpoint:
-    push-notification-service: https://3aa8-2003-cd-2703-29ed-f71c-75e0-ab5f-e8ef.eu.ngrok.io/api/receive
+    push-notification-service: komoot-challenge-dev.us-east-1.elasticbeanstalk.com/api/receive
     sns-topic: arn:aws:sns:us-east-1:778662507906:challenge-backend-signups
     aws-region: us-east-1
 server:
-  protocol: https
-  host: 3aa8-2003-cd-2703-29ed-f71c-75e0-ab5f-e8ef.eu.ngrok.io
+  protocol: http
+  host: komoot-challenge-dev.us-east-1.elasticbeanstalk.com
   port: 8090
   mail: fabian.finke@gmx.de
 logging:
