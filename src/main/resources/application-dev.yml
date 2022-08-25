@@ -1,0 +1,14 @@
+remote:
+  endpoint:
+    push-notification-service: https://0559-2003-cd-2703-29ed-f71c-75e0-ab5f-e8ef.eu.ngrok.io/api/receive
+    sns-topic: arn:aws:sns:us-east-1:778662507906:challenge-backend-signups
+    aws-region: us-east-1
+server:
+  protocol: https
+  host: 0559-2003-cd-2703-29ed-f71c-75e0-ab5f-e8ef.eu.ngrok.io
+  port: 8090
+  mail: fabian.finke@gmx.de
+logging:
+  level:
+    root: TRACE
+    org.springframework.web: TRACE
