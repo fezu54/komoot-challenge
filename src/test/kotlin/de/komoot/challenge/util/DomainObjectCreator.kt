@@ -2,6 +2,7 @@ package de.komoot.challenge.util
 
 import de.komoot.challenge.domain.SignUpUser
 import java.time.Instant
+import java.time.LocalDateTime
 
 object DomainObjectCreator {
 
@@ -12,6 +13,6 @@ object DomainObjectCreator {
     ) = SignUpUser(
         name = name,
         id = id,
-        created_at = createdAt
+        created_at = LocalDateTime.from(createdAt)
     )
 }

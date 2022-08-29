@@ -1,9 +1,9 @@
 package de.komoot.challenge.domain
 
-import java.time.Instant
+import java.time.LocalDateTime
 
 data class SignUpUser(
     val name: String,
     val id: Long,
-    val created_at: Instant
+    val created_at: LocalDateTime
 )
